@@ -1,1 +1,1 @@
-This is a private project made by Vaedant Baldwa, Created as a Project while workin for Bradsol.
+This is a private project made by Vaedant Baldwa, Created as a Project while working for Bradsol.
