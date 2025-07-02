@@ -13,18 +13,15 @@ class Topic(models.Model):
     def __str__(self):
         return self.name
 
-
-
 # Create your models here.
 class Room(models.Model):
     host=models.ForeignKey(User,on_delete=models.SET_NULL,null=True)
     name=models.CharField(max_length=200)
     topic=models.ForeignKey(Topic,on_delete=models.SET_NULL,null=True)
     description=models.TextField(null=True,blank=True)
-    #participants=
+    participants=models.ManyToManyField(User,related_name='participants',blank=True)
     updated=models.DateTimeField(auto_now=True) #every time it is saved
     created=models.DateTimeField(auto_now_add=True) #only at first save
-
 
     class Meta:
         ordering=['-updated','-created']
@@ -37,6 +34,9 @@ class Message(models.Model):
     body=models.TextField()
     updated=models.DateTimeField(auto_now=True)
     created=models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering=['-updated','-created']
 
     def __str__(self):
         return self.body[0:50]
