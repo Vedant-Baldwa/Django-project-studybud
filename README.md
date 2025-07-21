@@ -89,3 +89,11 @@ python manage.py runserver
 <img src="">  
 </td>
 </table>
+---
+
+## Credits
+- **Traversy Media** - Reffered this youtube video whenever I got stuck.
+---
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE)
