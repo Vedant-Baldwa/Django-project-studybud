@@ -92,7 +92,8 @@ python manage.py runserver
 ---
 
 ## Credits
-- **Traversy Media** - Reffered this youtube video whenever I got stuck.
+This project is inspired by the [**StudyBud Django tutorial by Dennis Ivy**](https://www.youtube.com/watch?v=PtQiiknWUcI) on YouTube.
+-  I followed the tutorial to understand Django fundamentals and then customized/extended some features on my own.
 ---
 ## 📄 License
 
