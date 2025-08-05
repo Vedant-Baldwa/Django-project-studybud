@@ -79,14 +79,14 @@ python manage.py runserver
 <p align="center">
   Feed Home
 </p>
-<img src="">
+<img src="images/feed">
 </td> 
 <td width="50%">
 <br>
 <p align="center">
   Room Conversation Preview
 </p>
-<img src="">  
+<img src="images/room">  
 </td>
 </table>
 ---
